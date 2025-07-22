@@ -1,0 +1,11 @@
+{
+    "username": "nexoul.technologies",
+    "password": "Nexoul@12/4/25",
+    "proxy": "",
+    "post_check_interval": [300, 600],
+    "reply_variations": [
+        "For more information, send a Hi to +91 79942 13770 on WhatsApp",
+        "Want more details? Send Hi to +91 79942 13770 on WhatsApp!",
+        "Reach out with a Hi to +91 79942 13770 on WhatsApp for more info!"
+    ]
+}
