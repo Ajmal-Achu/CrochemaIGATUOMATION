@@ -1,2 +1,2 @@
-instagrapi>=2.1.2
-pydantic-core==2.14.6
+  instagrapi>=2.1.2
+  pydantic-core==2.10.1
