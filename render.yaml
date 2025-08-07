@@ -1,14 +1,17 @@
-services:
+  services:
     - type: web
       name: crochemama-ig-bot
       env: python
-      buildCommand: "pip install -r requirements.txt"
-      startCommand: "python insta_bot.py"
+      buildCommand: |
+        python3.11 -m venv venv
+        . venv/bin/activate
+        pip install -r requirements.txt
+      startCommand: "venv/bin/python insta_bot.py"
       envVars:
         - key: PYTHONUNBUFFERED
           value: 1
         - key: PYTHON_VERSION
-          value: 3.11.9  # Specify a stable version
+          value: 3.11.9
       regions:
         - oregon
       plan: free
